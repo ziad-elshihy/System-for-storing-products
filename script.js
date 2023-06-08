@@ -44,7 +44,7 @@ submit.onclick = function () {
    if(title.value == ''
    || price.value == ''
    || category.value == ''){
-      alert("Please Fill Boxes Below !!!\ncount box should be less than 200");
+      alert("Please Fill Boxes Below !!!");
    } else {
       if (mood === 'create') {
          if (newDataProduct.count > 1) {
